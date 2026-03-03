@@ -1,0 +1,18 @@
+
+replicaCount: 1
+
+image:
+  repository: staff-app
+  tag: latest
+
+database:
+  user: appuser
+  password: supersecret123
+  name: appdb
+
+service:
+  type: NodePort
+  port: 80
+
+prometheus:
+  scrapePort: 9999

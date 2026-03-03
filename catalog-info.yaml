@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: murillo-devops-interview
+  description: interview for devops
+  annotations:
+    github.com/project-slug: jd-experiments/murillo-devops-interview
+    backstage.io/source-template: template:default/create-shield-repository
+spec:
+  type: service
+  owner: group:default/dx-platforms
+  lifecycle: experimental
+  system: system:default/io-de-devl
